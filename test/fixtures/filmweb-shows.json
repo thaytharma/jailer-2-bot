@@ -1,0 +1,22 @@
+{
+  "data": {
+    "showQuery": {
+      "getShows": [
+        {
+          "movieTitle": "Meesaya Murukku 2",
+          "theaterName": "Symra",
+          "firmName": "NFKino Oslo",
+          "showStart": "2026-09-25T20:15:00",
+          "ticketSaleUrl": "https://nfkino.no/screening/6a4bcc64-9c33-4f2f-9ebc-483d2196483a/ca4583a7-b7c8-443f-b4b6-abf37b985d41"
+        },
+        {
+          "movieTitle": "Meesaya Murukku 2",
+          "theaterName": "Symra",
+          "firmName": "NFKino Oslo",
+          "showStart": "2026-09-28T19:45:00",
+          "ticketSaleUrl": "https://nfkino.no/screening/6a4bcc64-9c33-4f2f-9ebc-483d2196483a/f472b09b-5f8d-479c-b370-226362e5c6d6"
+        }
+      ]
+    }
+  }
+}

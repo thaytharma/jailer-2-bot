@@ -1,0 +1,60 @@
+name: Check cinemas
+
+on:
+  schedule:
+    # Every 15 minutes, deliberately offset from the top of the hour — GitHub
+    # delays scheduled runs that pile up on :00.
+    - cron: '7,22,37,52 * * * *'
+  workflow_dispatch:
+    inputs:
+      test_notification:
+        description: 'Send a test notification instead of checking'
+        type: boolean
+        default: false
+
+# Never let two runs race on state.json.
+concurrency:
+  group: check-cinemas
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+
+      # Version comes from "packageManager" in package.json.
+      - uses: pnpm/action-setup@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: pnpm
+
+      - run: pnpm install --frozen-lockfile
+
+      - name: Check Oslo cinemas
+        env:
+          MOVIE: ${{ vars.MOVIE }}
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          NTFY_SERVER: ${{ vars.NTFY_SERVER }}
+          TEST_NOTIFICATION: ${{ inputs.test_notification && '1' || '' }}
+        run: pnpm check
+
+      # Runs even if the check failed, so a partial delivery is still recorded.
+      - name: Persist state
+        if: always()
+        run: |
+          if [ -z "$(git status --porcelain -- state.json)" ]; then
+            echo "state unchanged"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add state.json
+          git commit -m "chore: update cinema state [skip ci]"
+          git push

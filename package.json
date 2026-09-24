@@ -1,0 +1,20 @@
+{
+  "name": "jailer-2-bot",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Watches the Oslo cinema programmes and pushes an ntfy alert when Jailer 2 is listed or tickets go on sale",
+  "scripts": {
+    "check": "tsx src/index.ts",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^20.17.9",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8"
+  },
+  "packageManager": "pnpm@10.33.0"
+}

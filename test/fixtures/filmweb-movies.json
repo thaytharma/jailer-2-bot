@@ -1,0 +1,107 @@
+{
+  "data": {
+    "movieQuery": {
+      "current": [
+        {
+          "title": "After Dreaming",
+          "titleOriginal": "Yerazeluts heto",
+          "mainVersionId": "EDI20261336",
+          "premiere": "0001-01-01T00:00:00"
+        },
+        {
+          "title": "Always Lalisa",
+          "titleOriginal": "Always Lalisa",
+          "mainVersionId": "EDI20261389",
+          "premiere": "2026-10-12T00:00:00"
+        },
+        {
+          "title": "An Incomplete Calendar",
+          "titleOriginal": "",
+          "mainVersionId": "EDI20261350",
+          "premiere": "0001-01-01T00:00:00"
+        },
+        {
+          "title": "A Prayer for the Dying",
+          "titleOriginal": "A Prayer for the Dying",
+          "mainVersionId": "EDI20260850",
+          "premiere": "2026-10-23T00:00:00"
+        },
+        {
+          "title": "A Sweetness From Nowhere",
+          "titleOriginal": "En ljuvlighet från ingenstans",
+          "mainVersionId": "EDI20261004",
+          "premiere": "0001-01-01T00:00:00"
+        },
+        {
+          "title": "At Night",
+          "titleOriginal": "At Night",
+          "mainVersionId": "EDI20261317",
+          "premiere": "0001-01-01T00:00:00"
+        },
+        {
+          "title": "Avengers: Endgame Encore",
+          "titleOriginal": "",
+          "mainVersionId": "EDI20261232",
+          "premiere": "2026-09-25T00:00:00"
+        },
+        {
+          "title": "Bamse og havets hemmelighet",
+          "titleOriginal": "Bamse och havets hemlighet",
+          "mainVersionId": "EDI20260241",
+          "premiere": "2026-04-17T00:00:00"
+        }
+      ],
+      "upcoming": [
+        {
+          "title": "Baththa - Tamilfilm",
+          "titleOriginal": "Baththa",
+          "mainVersionId": "EDI20261522",
+          "premiere": "2026-10-01T00:00:00"
+        },
+        {
+          "title": "Drishyam 3 - Hindi",
+          "titleOriginal": "DRISHYAM: The Conclusion",
+          "mainVersionId": "EDI20261501",
+          "premiere": "2026-10-02T00:00:00"
+        },
+        {
+          "title": "Porattam - Tamilfilm",
+          "titleOriginal": "",
+          "mainVersionId": "EDI20261335",
+          "premiere": "2026-10-02T00:00:00"
+        },
+        {
+          "title": "Delivery Boy - Tamilfilm",
+          "titleOriginal": "Delivery Boy",
+          "mainVersionId": "EDI20261386",
+          "premiere": "2026-10-31T00:00:00"
+        },
+        {
+          "title": "Paradise - Telugu Film",
+          "titleOriginal": "Paradise",
+          "mainVersionId": "EDI20261508",
+          "premiere": "2026-09-24T00:00:00"
+        },
+        {
+          "title": "Avengers: Endgame Encore",
+          "titleOriginal": "",
+          "mainVersionId": "EDI20261232",
+          "premiere": "2026-09-25T00:00:00"
+        },
+        {
+          "title": "Butterfly",
+          "titleOriginal": "Butterfly",
+          "mainVersionId": "MER20240096",
+          "premiere": "2026-09-25T00:00:00"
+        },
+        {
+          "title": "Enzo",
+          "titleOriginal": "Enzo",
+          "mainVersionId": "EDI20251708",
+          "premiere": "2026-09-25T00:00:00"
+        }
+      ],
+      "search": []
+    }
+  }
+}
