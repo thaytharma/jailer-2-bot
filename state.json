@@ -2,21 +2,22 @@
   "version": 1,
   "movies": {
     "Jailer 2": {
-      "notifiedLevel": "absent",
+      "notifiedLevel": "listed",
       "sources": {
         "filmweb": {
-          "level": "absent",
+          "level": "listed",
           "brokenRuns": 0,
           "brokenWarningSent": false,
-          "lastCheckedAt": "2026-09-28T17:03:52.332Z"
+          "lastCheckedAt": "2026-09-28T22:31:04.493Z"
         },
         "nfkino": {
           "level": "absent",
           "brokenRuns": 0,
           "brokenWarningSent": false,
-          "lastCheckedAt": "2026-09-28T17:03:52.332Z"
+          "lastCheckedAt": "2026-09-28T22:31:04.493Z"
         }
-      }
+      },
+      "listedAt": "2026-09-28T22:31:04.493Z"
     }
   }
 }
