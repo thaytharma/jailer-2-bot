@@ -8,14 +8,14 @@
           "level": "on_sale",
           "brokenRuns": 0,
           "brokenWarningSent": false,
-          "lastCheckedAt": "2026-10-05T00:14:44.644Z"
+          "lastCheckedAt": "2026-10-05T05:55:20.339Z"
         },
         "nfkino": {
           "level": "error",
-          "brokenRuns": 1,
+          "brokenRuns": 2,
           "brokenWarningSent": false,
-          "lastCheckedAt": "2026-10-05T00:14:44.644Z",
-          "lastError": "failed after 3 attempts: fetch failed"
+          "lastCheckedAt": "2026-10-05T05:55:20.339Z",
+          "lastError": "only 0 films on the NF Kino Oslo programme — markup changed?"
         }
       },
       "listedAt": "2026-09-28T22:31:04.493Z",
