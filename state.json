@@ -5,16 +5,16 @@
       "notifiedLevel": "on_sale",
       "sources": {
         "filmweb": {
-          "level": "listed",
+          "level": "on_sale",
           "brokenRuns": 0,
           "brokenWarningSent": false,
-          "lastCheckedAt": "2026-10-19T15:01:23.967Z"
+          "lastCheckedAt": "2026-10-19T20:33:11.606Z"
         },
         "nfkino": {
           "level": "on_sale",
           "brokenRuns": 0,
           "brokenWarningSent": false,
-          "lastCheckedAt": "2026-10-19T15:01:23.967Z"
+          "lastCheckedAt": "2026-10-19T20:33:11.606Z"
         }
       },
       "listedAt": "2026-09-28T22:31:04.493Z",
