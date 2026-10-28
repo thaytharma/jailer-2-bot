@@ -8,14 +8,13 @@
           "level": "on_sale",
           "brokenRuns": 0,
           "brokenWarningSent": false,
-          "lastCheckedAt": "2026-10-28T14:28:47.303Z"
+          "lastCheckedAt": "2026-10-28T19:50:51.134Z"
         },
         "nfkino": {
-          "level": "error",
-          "brokenRuns": 1,
+          "level": "on_sale",
+          "brokenRuns": 0,
           "brokenWarningSent": false,
-          "lastCheckedAt": "2026-10-28T14:28:47.303Z",
-          "lastError": "failed after 3 attempts: fetch failed"
+          "lastCheckedAt": "2026-10-28T19:50:51.134Z"
         }
       },
       "listedAt": "2026-09-28T22:31:04.493Z",
